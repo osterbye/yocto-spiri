@@ -43,4 +43,6 @@ git clone -b anvil git@bitbucket.org:spiri_io/meta-spiri.git
 cd meta-spiri
 source ./setup.sh ../../build-apalis-imx6
 
+git clone -b anvil git@bitbucket.org:spiri_io/apalis-flash.git
+
 export PS1="\[\e[32;1m\][yocto-spiri]\[\e[0m\]:\w> "
