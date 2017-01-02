@@ -1,7 +1,7 @@
 #!/bin/sh
 ############################################################################
 ##
-## Copyright (C) 2016 Spiri ApS
+## Copyright (C) 2016-2017 Spiri ApS
 ##
 ############################################################################
 
@@ -26,8 +26,8 @@ fi
 
 QT_INSTALL_DIR=${QT_INSTALL_DIR:-$HOME/Qt/}
 
-if [ -f ${QT_INSTALL_DIR}/5.7/Boot2Qt/sources/meta-b2qt/b2qt-init-build-env ]; then
-    ${QT_INSTALL_DIR}/5.7/Boot2Qt/sources/meta-b2qt/b2qt-init-build-env init --device apalis-imx6
+if [ -f ${QT_INSTALL_DIR}/5.8/Boot2Qt/sources/meta-b2qt/b2qt-init-build-env ]; then
+    ${QT_INSTALL_DIR}/5.8/Boot2Qt/sources/meta-b2qt/b2qt-init-build-env init --device apalis-imx6
 else
     echo "Error: Cannot find Boot2Qt installation directory ${QT_INSTALL_DIR}"
     return 1
