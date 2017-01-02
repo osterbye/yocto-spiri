@@ -1,0 +1,11 @@
+# files
+setup-environment.sh
+
+
+# directories
+build-apalis-imx6/*
+downloads/*
+sources/*
+sstate-cache/*
+.repo/*
+
